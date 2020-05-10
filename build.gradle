@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'dynamic-routing'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 12
+
+repositories {
+    mavenCentral()
+}
+
+
+
+dependencies {
+    compile group: 'org.springframework', name: 'spring-jdbc', version: '5.2.6.RELEASE'
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
